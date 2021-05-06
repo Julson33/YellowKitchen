@@ -1,0 +1,48 @@
+.mainsection{
+    max-width:1000px ;
+    margin: 0 auto;
+    display: flex;
+}
+.text{
+    margin-top: 120px;
+    h1{
+        width: 524px;
+        margin-bottom: 80px;
+    }
+    button{
+        border-radius: 4px;
+        border: 2px solid $yellow2;
+        padding: 16px;
+        background-color: #fff;
+        font-size: 12px;
+        margin-right: 16px;
+    }
+    span{
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
+.image{
+    margin-left: -150px;
+    margin-top: 25px;
+}
+.infosection{
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    &>div{
+        display: flex;
+        align-items: center;
+        margin-right: 46px;
+        img{
+            width: 46px;
+            height: 46px;
+            margin-right: 16px;
+        }
+        p{
+            font-size: 16;
+            line-height: 24px;
+        }
+    }
+}

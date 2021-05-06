@@ -1,0 +1,43 @@
+.cytrynki{
+    background-image: url('../img/cytrynki .jpg');
+    background-repeat: no-repeat;
+    margin-top: 80px;
+
+    .wrap{
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        padding: 50px 0;
+  .circle{
+      position: relative;
+     div{
+         width: 120px;
+         height: 120px;
+         border: 1px solid $yellow3;
+         border-radius: 50%;
+         font-weight: 700;
+         font-size: 58px;
+         line-height: 120px;
+         text-align: center;
+         z-index: 2;
+         position: relative;
+        
+     }
+     P{
+         text-align: center;
+         font-weight: 700;
+         margin-top: 30px;
+
+     }
+     .yel{
+         background-color: $yellow2;
+         border: none;
+         position: absolute;
+         top: 23px;
+         left: 0;
+         z-index: 1;
+     }
+  }
+    }
+}
